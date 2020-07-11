@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Rabbil Hasan | Expert Mobile And Web Developer in Bangladesh</title>
+    <title>@yield('title')</title>
     <meta name="google-site-verification" content="J2K-awrLm--LtTSkUGmFsRpFFTU0W1V5PqZTQp0b6pg" />
     <meta name="description" content="Rabbil Hasan is an Expert Web Developer in Bangladesh. Expert Mobile App Developer in Bangladesh.He is highly talented, experienced, professional and cooperative software engineer, working in programming and web world for more than 4 years. Moreover Rabbil Hasan has a skilled team for achieving his goal named “Team Rabbil”.Team Rabbil assure you a wide range of quality IT services. ">
     <meta name="keywords" content="Expert Web Developer in Bangladesh, Expert Mobile App Developer in Bangladesh, Android App Developer in Bangladesh">
@@ -18,8 +18,9 @@
 </head>
 <body>
 
+    @include('layout.menu')
 
-
+    @yield('content')
 
 
     <script type="text/javascript" src="{{asset('js/jquery-3.4.1.min.js')}}"></script>
