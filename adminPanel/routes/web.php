@@ -9,3 +9,9 @@ Route::get('/', function () {
 });
 
 Route::get('/visitor','VisitorController@VisitorIndex');
+
+Route::get('/service','ServicesController@servicesIndex');
+
+Route::get('/getServiceData','ServicesController@getServicesData');
+
+Route::post('/DeleteService','ServicesController@deleteServices'); 
