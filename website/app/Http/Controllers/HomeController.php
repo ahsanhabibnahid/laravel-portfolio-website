@@ -14,7 +14,7 @@ class HomeController extends Controller
         $timeDate= date("Y-m-d h:i:sa");
         VisitorModel::insert(['ip_address'=>$UserIP,'visit_time'=>$timeDate]);
 
-        $servicesData = json_decode(ServicesModel::all());
+        $servicesData = json_decode(ServicesModel::orderBy('id','desc')->limit(4)->get());
 
         return view('home',['servicesKey'=>$servicesData]);
     }
