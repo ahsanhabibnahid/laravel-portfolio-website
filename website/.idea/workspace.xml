@@ -145,7 +145,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -168,7 +168,9 @@
       <workItem from="1594663658562" duration="628000" />
       <workItem from="1594707410819" duration="2521000" />
       <workItem from="1594890131899" duration="663000" />
-      <workItem from="1595045453215" duration="690000" />
+      <workItem from="1595045453215" duration="4520000" />
+      <workItem from="1595090949679" duration="2647000" />
+      <workItem from="1595129156854" duration="2217000" />
     </task>
     <servers />
   </component>
@@ -188,9 +190,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="492" y="281" key="NewPhpFileDialog" timestamp="1594467840037">
+    <state x="492" y="281" key="NewPhpFileDialog" timestamp="1595084140654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="281" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1594467840037" />
+    <state x="492" y="281" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1595084140654" />
+    <state x="77" y="0" key="SettingsEditor" timestamp="1595084496485">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="77" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1595084496485" />
   </component>
 </project>

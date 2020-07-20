@@ -10,14 +10,20 @@ Route::get('/', function () {
 
 Route::get('/visitor','VisitorController@VisitorIndex');
 
+///Service Route 
 Route::get('/service','ServicesController@servicesIndex');
-
 Route::get('/getServiceData','ServicesController@getServicesData');
-
 Route::post('/DeleteService','ServicesController@deleteServices'); 
-
 Route::post('/DetailsService','ServicesController@getDetails'); 
-
 Route::post('/UpdateService','ServicesController@updateService'); 
-
 Route::post('/addNewService','ServicesController@addNewService'); 
+
+///Courses Route
+Route::get('/courses','CourseController@coursesIndex');
+Route::get('/getCourseData','CourseController@getCoursesData');
+Route::post('/DeleteCourse','CourseController@deleteCourses'); 
+Route::post('/DetailsCourse','CourseController@getDetails'); 
+Route::post('/UpdateCourse','CourseController@updateCourses'); 
+Route::post('/addNewCourse','CourseController@addNewCourses'); 
+
+
