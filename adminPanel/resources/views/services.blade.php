@@ -1,9 +1,9 @@
 @extends('layout.app')
 
 @section('content')
+ 
 
-
-
+<!-- sercice table -->
 <div id='mainDiv' class="container d-none">
     
     <div class="row">
@@ -29,7 +29,7 @@
 </div>
 
 
-
+<!-- service loader -->
 <div id='loadingDiv' class="container">
     <div class="row">
         <div class="col-md-12 p-5 text-center">
@@ -38,7 +38,7 @@
     </div>
 </div>
 
-
+<!-- service wrong -->
 
 <div id='wrongDiv' class="container d-none">
     <div class="row">

@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+ 
 use Illuminate\Http\Request;
 use App\ServiceModel;
 
@@ -12,7 +12,7 @@ class ServicesController extends Controller
     }
 
     function getServicesData(){
-        $result = json_encode(ServiceModel::orderBy('id','desc')->get());
+        $result = json_decode(ServiceModel::orderBy('id','desc')->get());
         return $result; 
     }
 
@@ -53,7 +53,7 @@ class ServicesController extends Controller
         $img = $request->input('img');
         $result = ServiceModel::insert(['service_name'=>$name,'service_des'=>$des,'service_img'=>$img]);
 
-        if($result==1){
+        if($result==true){
             return 1;
         }
         else{
